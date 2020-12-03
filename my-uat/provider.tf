@@ -16,10 +16,7 @@ terraform {
   */
 }
 
-variable "AWS_DEFAULT_REGION" {
-  default = ""
-}
 
 provider "aws" {
-  region = var.AWS_DEFAULT_REGION
+  region = var.region
 }
