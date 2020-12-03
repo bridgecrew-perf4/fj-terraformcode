@@ -1,5 +1,6 @@
 variable "region" {}
 
+
 variable "vpc-region" {
   description = "region to deploy vpc"
 }
