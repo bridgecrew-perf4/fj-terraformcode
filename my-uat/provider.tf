@@ -1,6 +1,7 @@
 terraform {
   backend "remote" {
-    organization  = "boohoo-devops"    
+    hostname = "app.terraform.io"
+    organization  = "boohoo-devops"
 
     workspaces {
       name        = "FJ-Workspace"

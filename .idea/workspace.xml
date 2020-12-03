@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="89b11f95-475b-49bd-b7c2-f6cbb2108d6a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-uat/.terraform/terraform.tfstate" beforeDir="false" afterPath="$PROJECT_DIR$/my-uat/.terraform/terraform.tfstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-uat/module_ec2/ec2.tf" beforeDir="false" afterPath="$PROJECT_DIR$/my-uat/module_ec2/ec2.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-uat/module_ec2/output.tf" beforeDir="false" afterPath="$PROJECT_DIR$/my-uat/module_ec2/output.tf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-uat/provider.tf" beforeDir="false" afterPath="$PROJECT_DIR$/my-uat/provider.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +11,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1l9oKV5hOBrcFVOQ1SGcF2Q69Oi" />
@@ -62,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607018606280</updated>
       <workItem from="1607018611068" duration="2025000" />
-      <workItem from="1607022140570" duration="3596000" />
+      <workItem from="1607022140570" duration="4667000" />
     </task>
     <task id="LOCAL-00001" summary="Sending code first time">
       <created>1607018684602</created>
@@ -113,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607024994670</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Updated ec2.tf and output.tf">
+      <created>1607025981911</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607025981911</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,7 +139,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="HEAD" />
                       </list>
                     </value>
                   </entry>
@@ -151,6 +160,7 @@
     <MESSAGE value="uploading idea files" />
     <MESSAGE value="updated output files and added main output.tf" />
     <MESSAGE value="updated workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated workspace.xml" />
+    <MESSAGE value="Updated ec2.tf and output.tf" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated ec2.tf and output.tf" />
   </component>
 </project>
