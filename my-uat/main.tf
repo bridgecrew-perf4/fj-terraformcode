@@ -21,5 +21,6 @@ module "ec2" {
   my-instancetype       = var.my-instancetype
   INSTANCE_PASSWORD     = var.INSTANCE_PASSWORD
   mod-ec2-keypair       = var.mod-ec2-keypair
+  subnet-id             = module.vpc.pub-subnet-1a-data
   #vpc-id                = module.vpc.vpc-cidr-block
 }

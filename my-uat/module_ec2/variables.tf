@@ -32,4 +32,6 @@ variable "mod-ec2-keypair" {
 
 #variable "vpc-id" {}
 
-
+variable "subnet-id" {
+    default = ""
+}

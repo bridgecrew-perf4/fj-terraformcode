@@ -7,12 +7,12 @@ output "vpc-cidr-block" {
 }
 
 output "pub-subnet-1a-data" {
-  value = aws_subnet.mod-pub-subnet-1a
+  value = aws_subnet.mod-pub-subnet-1a.id
 }
 output "pub-subnet-1b-data" {
-  value = aws_subnet.mod-pub-subnet-1b
+  value = aws_subnet.mod-pub-subnet-1b.id
 }
 
 output "pub-subnet-1c-data" {
-  value = aws_subnet.mod-pub-subnet-1c
+  value = aws_subnet.mod-pub-subnet-1c.id
 }
