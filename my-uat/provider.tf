@@ -3,7 +3,7 @@ terraform {
     organization  = "boohoo-devops"    
 
     workspaces {
-      name        = "FJ-UATenv"            
+      name        = "FJ-Workspace"
     }
   }
   /*

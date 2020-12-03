@@ -32,12 +32,13 @@ data "aws_vpc" "my-vpc" {
 
 # Provisioning an EC2 instance
 resource aws_instance "mod-ec2" {
-    count               = "1"
+    #count               = "1"
     ami                 = var.my-ami
     instance_type       = var.my-instancetype
     get_password_data   = "true"
     key_name            = var.mod-ec2-keypair
-    subnet_id           = tolist(data.aws_subnet_ids.pub-subnet-1a.ids)[count.index]
+    #subnet_id           = tolist(data.aws_subnet_ids.pub-subnet-1a.ids)[count.index]
+    subnet_id           = data.aws_subnet_ids.pub-subnet-1a.id
     user_data           = data.template_file.userdata_win.rendered
     tags                = {
         Name            = "fj-vm01"

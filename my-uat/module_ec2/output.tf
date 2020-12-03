@@ -1,5 +1,5 @@
 output "ec2-data" {
-  value = aws_instance.mod-ec2.get_password_data
+  value = aws_instance.mod-ec2
 }
 
 output "ec2-getip" {
