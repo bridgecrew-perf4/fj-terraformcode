@@ -1,9 +1,3 @@
-/*
-provider "aws" {
-  region = var.region
-}
-*/
-
 module "vpc" {
   source                = "./module_vpc"
   vpc-cidr-block        = var.vpc-cidr-block
@@ -21,6 +15,5 @@ module "ec2" {
   my-instancetype       = var.my-instancetype
   INSTANCE_PASSWORD     = var.INSTANCE_PASSWORD
   mod-ec2-keypair       = var.mod-ec2-keypair
-  subnet-id             = module.vpc.pub-subnet-1a-data
-  #vpc-id                = module.vpc.vpc-cidr-block
+  subnet-id             = module.vpc.pub-subnet-1a-id       # This value is obtained from module_vpc/output.tf
 }

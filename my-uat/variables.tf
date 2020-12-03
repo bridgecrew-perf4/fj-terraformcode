@@ -33,16 +33,6 @@ variable "INSTANCE_PASSWORD" {
   description = "Password for Windows Instance"
 }
 
-/*
-variable "ssh-public-key-file" {
-  default     = ""
-}
-
-variable "ssh-private-key-file" {
-  default     = ""
-}
-*/
-
 variable "mod-ec2-keypair" {
   description = "Referencing the key we have generated via aws cli"
 }
