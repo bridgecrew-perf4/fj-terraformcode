@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89b11f95-475b-49bd-b7c2-f6cbb2108d6a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/my-uat/provider.tf" beforeDir="false" afterPath="$PROJECT_DIR$/my-uat/provider.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-uat/output.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-uat/module_ec2/output.tf" beforeDir="false" afterPath="$PROJECT_DIR$/my-uat/module_ec2/output.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +32,24 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\IdeaProjects\fj-terraformcode\my-uat" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\IdeaProjects\fj-terraformcode\my-uat" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -40,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607018606280</updated>
       <workItem from="1607018611068" duration="2025000" />
-      <workItem from="1607022140570" duration="1249000" />
+      <workItem from="1607022140570" duration="1885000" />
     </task>
     <task id="LOCAL-00001" summary="Sending code first time">
       <created>1607018684602</created>
@@ -63,7 +83,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607022632188</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated provider.tf #2">
+      <created>1607023429574</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607023429575</updated>
+    </task>
+    <task id="LOCAL-00005" summary="uploading idea files">
+      <created>1607023743019</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607023743019</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,6 +119,8 @@
     <MESSAGE value="Sending code first time" />
     <MESSAGE value="Sending code second time" />
     <MESSAGE value="Updated provider.tf" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated provider.tf" />
+    <MESSAGE value="Updated provider.tf #2" />
+    <MESSAGE value="uploading idea files" />
+    <option name="LAST_COMMIT_MESSAGE" value="uploading idea files" />
   </component>
 </project>
