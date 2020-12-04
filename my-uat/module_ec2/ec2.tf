@@ -2,6 +2,7 @@
 
 resource aws_instance "mod-ec2" {
     ami                 = var.my-ami
+
     instance_type       = var.my-instancetype
     get_password_data   = "true"
     key_name            = var.mod-ec2-keypair

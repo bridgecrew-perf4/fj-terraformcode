@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89b11f95-475b-49bd-b7c2-f6cbb2108d6a" name="Default Changelist" comment="ec2 changes - trailing">
+    <list default="true" id="89b11f95-475b-49bd-b7c2-f6cbb2108d6a" name="Default Changelist" comment="Major house keeping - Added comments about changes in EC2 (new way of passing subnet-id)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-uat/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/my-uat/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-uat/.terraform/modules/modules.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-uat/.terraform/modules/modules.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-uat/module_ec2/ec2.tf" beforeDir="false" afterPath="$PROJECT_DIR$/my-uat/module_ec2/ec2.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-uat/module_vpc/output.tf" beforeDir="false" afterPath="$PROJECT_DIR$/my-uat/module_vpc/output.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-uat/provider.tf" beforeDir="false" afterPath="$PROJECT_DIR$/my-uat/provider.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-uat/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/my-uat/variables.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-uat/var_values.auto.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/my-uat/var_values.auto.tfvars" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,24 +39,10 @@
       <recent name="C:\IdeaProjects\fj-terraformcode\my-uat" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\IdeaProjects\fj-terraformcode" />
       <recent name="C:\IdeaProjects\fj-terraformcode\my-uat\dumps" />
       <recent name="C:\IdeaProjects\fj-terraformcode\my-uat" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -69,7 +53,10 @@
       <option name="presentableId" value="Default" />
       <updated>1607018606280</updated>
       <workItem from="1607018611068" duration="2025000" />
-      <workItem from="1607022140570" duration="7736000" />
+      <workItem from="1607022140570" duration="12312000" />
+      <workItem from="1607083694299" duration="227000" />
+      <workItem from="1607088503448" duration="16000" />
+      <workItem from="1607090690411" duration="2630000" />
     </task>
     <task id="LOCAL-00001" summary="Sending code first time">
       <created>1607018684602</created>
@@ -141,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607028304243</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Major house keeping - Added comments about changes in EC2 (new way of passing subnet-id)">
+      <created>1607031248797</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607031248797</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +175,7 @@
     <MESSAGE value="Updated ec2.tf and output.tf" />
     <MESSAGE value="Updated provider.tf" />
     <MESSAGE value="ec2 changes - trailing" />
-    <option name="LAST_COMMIT_MESSAGE" value="ec2 changes - trailing" />
+    <MESSAGE value="Major house keeping - Added comments about changes in EC2 (new way of passing subnet-id)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Major house keeping - Added comments about changes in EC2 (new way of passing subnet-id)" />
   </component>
 </project>
