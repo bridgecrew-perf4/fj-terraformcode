@@ -16,6 +16,8 @@ variable "INSTANCE_USERNAME" {
     default = "compute.admin"
     description = "Local admin"
 }
+
+
 /*
 variable "ssh-public-key-file" {
     default     = ""

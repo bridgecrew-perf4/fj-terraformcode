@@ -5,6 +5,9 @@ module "vpc" {
   pub-subnet-1a-cidr    = var.pub-subnet-1a-cidr
   pub-subnet-1b-cidr    = var.pub-subnet-1b-cidr
   pub-subnet-1c-cidr    = var.pub-subnet-1c-cidr
+  pri-subnet-1a-cidr    = var.pri-subnet-1a-cidr
+  pri-subnet-1b-cidr    = var.pri-subnet-1b-cidr
+  pri-subnet-1c-cidr    = var.pri-subnet-1c-cidr
 }
 
 module "ec2" {
