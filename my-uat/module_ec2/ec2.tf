@@ -4,6 +4,7 @@ resource aws_instance "mod-ec2" {
     instance_type       = var.my-instancetype
     get_password_data   = "true"
     key_name            = var.mod-ec2-keypair
+    iam_instance_profile = "RenameHostname"
     subnet_id           = var.subnet-id                     # value will be passed from main.tf via referencing mod-vpc.
                                                             #I had to output IDs from vpc module (output.tf)
     user_data           = data.template_file.userdata_win.rendered
