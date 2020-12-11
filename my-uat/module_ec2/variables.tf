@@ -1,4 +1,4 @@
-variable "region" {}
+#variable "region" {}
 
 variable "my-ami" {
     description = "Stockholm AMIs"
