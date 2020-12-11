@@ -13,7 +13,7 @@ module "vpc" {
 module "ec2" {
   source                = "./module_ec2"
   depends_on            = [module.vpc]
-  region                = var.region
+  #region                = var.region
   my-ami                = var.my-ami
   my-instancetype       = var.my-instancetype
   INSTANCE_PASSWORD     = var.INSTANCE_PASSWORD
