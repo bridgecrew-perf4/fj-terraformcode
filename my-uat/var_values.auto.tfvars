@@ -1,5 +1,5 @@
 # Root level
-# region             = "eu-north-1"
+region             = "eu-north-1"
 
 # Module_VPC level
 vpc-region         = "eu-north-1"
