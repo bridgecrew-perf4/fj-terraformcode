@@ -1,5 +1,4 @@
 # Provisioning an EC2 instance
-
 resource aws_instance "mod-ec2" {
     ami                 = var.my-ami
     instance_type       = var.my-instancetype
@@ -13,6 +12,7 @@ resource aws_instance "mod-ec2" {
         Department      = "IT"
         Environment     = "UAT"
     }
+
 }
 
 # User data template for creating local admin and settings its password
