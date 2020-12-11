@@ -1,4 +1,4 @@
-variable "region" {}
+#variable "region" {}
 
 variable "my-ami" {
     description = "Stockholm AMIs"
@@ -16,6 +16,8 @@ variable "INSTANCE_USERNAME" {
     default = "compute.admin"
     description = "Local admin"
 }
+
+
 /*
 variable "ssh-public-key-file" {
     default     = ""

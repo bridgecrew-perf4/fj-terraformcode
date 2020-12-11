@@ -47,18 +47,83 @@ resource "aws_subnet" "mod-pub-subnet-1c" {
   }
 }
 
-# Creating root table
-resource "aws_route_table" "mod-IGW" {
-  vpc_id = aws_vpc.mod-vpc.id
+# Creating Private subnets
+
+resource "aws_subnet" "mod-pri-subnet-1a" {
+  cidr_block              = var.pri-subnet-1a-cidr
+  vpc_id                  = aws_vpc.mod-vpc.id
+  availability_zone       = "${var.vpc-region}a"
   tags                    = {
-    Name = "mod-IGW"
+    Name = "pri-subnet-1a"
   }
 }
 
-# Adding route table assoication
+resource "aws_subnet" "mod-pri-subnet-1b" {
+  cidr_block              = var.pri-subnet-1b-cidr
+  vpc_id                  = aws_vpc.mod-vpc.id
+  availability_zone       = "${var.vpc-region}b"
+  tags                    = {
+    Name = "pri-subnet-1b"
+  }
+}
+
+resource "aws_subnet" "mod-pri-subnet-1c" {
+  cidr_block              = var.pri-subnet-1c-cidr
+  vpc_id                  = aws_vpc.mod-vpc.id
+  availability_zone       = "${var.vpc-region}c"
+  tags                    = {
+    Name = "pri-subnet-1c"
+  }
+}
+
+# Creating Root Table
+# Creating Public Root Table
+resource "aws_route_table" "mod-IGW" {
+  vpc_id = aws_vpc.mod-vpc.id
+  tags                    = {
+    Name = "mod-IGW-RT"
+  }
+}
+
+# Creating Private Root Table
+resource "aws_route_table" "mod-NAT" {
+  vpc_id = aws_vpc.mod-vpc.id
+  tags                    = {
+    Name = "mod-NAT-RT"
+  }
+}
+
+# Adding Route Table Association
+# Adding Public Route Table Association
 resource "aws_route_table_association" "pub-subnet-1a" {
   route_table_id = aws_route_table.mod-IGW.id
   subnet_id      = aws_subnet.mod-pub-subnet-1a.id
+}
+
+resource "aws_route_table_association" "pub-subnet-1b" {
+  route_table_id = aws_route_table.mod-IGW.id
+  subnet_id      = aws_subnet.mod-pub-subnet-1b.id
+}
+
+resource "aws_route_table_association" "pub-subnet-1c" {
+  route_table_id = aws_route_table.mod-IGW.id
+  subnet_id      = aws_subnet.mod-pub-subnet-1c.id
+}
+
+# Adding Private Route Table Association
+resource "aws_route_table_association" "pri-subnet-1a" {
+  route_table_id = aws_route_table.mod-NAT.id
+  subnet_id      = aws_subnet.mod-pri-subnet-1a.id
+}
+
+resource "aws_route_table_association" "pri-subnet-1b" {
+  route_table_id = aws_route_table.mod-NAT.id
+  subnet_id      = aws_subnet.mod-pri-subnet-1b.id
+}
+
+resource "aws_route_table_association" "pri-subnet-1c" {
+  route_table_id = aws_route_table.mod-NAT.id
+  subnet_id      = aws_subnet.mod-pri-subnet-1c.id
 }
 
 # Creating IGW

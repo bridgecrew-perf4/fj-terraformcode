@@ -20,3 +20,14 @@ variable "pub-subnet-1c-cidr" {
   description = "defining CIDR block for Public subnet 1c"
 }
 
+variable "pri-subnet-1a-cidr" {
+  description = "defining CIDR block for Private subnet 1a"
+}
+
+variable "pri-subnet-1b-cidr" {
+  description = "defining CIDR block for Private subnet 1a"
+}
+
+variable "pri-subnet-1c-cidr" {
+  description = "defining CIDR block for Private subnet 1a"
+}
