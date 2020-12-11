@@ -4,7 +4,8 @@ resource aws_instance "mod-ec2" {
     instance_type       = var.my-instancetype
     get_password_data   = "true"
     key_name            = var.mod-ec2-keypair
-    iam_instance_profile = "RenameHostname"
+    iam_instance_profile = data.aws_iam_role
+
     subnet_id           = var.subnet-id                     # value will be passed from main.tf via referencing mod-vpc.
                                                             #I had to output IDs from vpc module (output.tf)
     user_data           = data.template_file.userdata_win.rendered
@@ -41,4 +42,9 @@ data "template_file" "userdata_win" {
         </powershell>
         #<persist>false</persist>
         EOF
+}
+
+data "aws_iam_role" "renaming-host" {
+    name      = "Rename-Hostname"
+    role_name = "Rename-Hostname"
 }

@@ -177,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607698002537</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Added IAM role parameter">
+      <created>1607700795194</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1607700795194</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +231,7 @@
     <MESSAGE value="Resending code #3" />
     <MESSAGE value="Changed keypair name." />
     <MESSAGE value="Changed keypair nam #2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed keypair nam #2" />
+    <MESSAGE value="Added IAM role parameter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added IAM role parameter" />
   </component>
 </project>
