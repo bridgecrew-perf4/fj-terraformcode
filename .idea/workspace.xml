@@ -59,7 +59,7 @@
       <workItem from="1607451061511" duration="32000" />
       <workItem from="1607608814719" duration="2846000" />
       <workItem from="1607621296099" duration="104000" />
-      <workItem from="1607685084735" duration="2397000" />
+      <workItem from="1607685084735" duration="3659000" />
     </task>
     <task id="LOCAL-00001" summary="Sending code first time">
       <created>1607018684602</created>
@@ -152,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607444055637</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Reinstated Region var value">
+      <created>1607689256172</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1607689256172</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +202,7 @@
     <MESSAGE value="Major house keeping - Added comments about changes in EC2 (new way of passing subnet-id)" />
     <MESSAGE value="Updated keypair value" />
     <MESSAGE value="Added var Region on Workspace. Added PC renaming script in EC2 module. Added Private Subnets, Route Table and RT Associations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added var Region on Workspace. Added PC renaming script in EC2 module. Added Private Subnets, Route Table and RT Associations" />
+    <MESSAGE value="Reinstated Region var value" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reinstated Region var value" />
   </component>
 </project>
