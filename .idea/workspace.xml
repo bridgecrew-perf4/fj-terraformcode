@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89b11f95-475b-49bd-b7c2-f6cbb2108d6a" name="Default Changelist" comment="Updated keypair value">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-uat/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/my-uat/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-uat/module_ec2/ec2.tf" beforeDir="false" afterPath="$PROJECT_DIR$/my-uat/module_ec2/ec2.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-uat/module_ec2/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/my-uat/module_ec2/variables.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-uat/module_vpc/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/my-uat/module_vpc/variables.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-uat/module_vpc/vpc.tf" beforeDir="false" afterPath="$PROJECT_DIR$/my-uat/module_vpc/vpc.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-uat/var_values.auto.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/my-uat/var_values.auto.tfvars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-uat/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/my-uat/variables.tf" afterDir="false" />
-    </list>
+    <list default="true" id="89b11f95-475b-49bd-b7c2-f6cbb2108d6a" name="Default Changelist" comment="Updated keypair value" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -148,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607094397088</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Resending code">
+      <created>1607696654005</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1607696654005</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +188,7 @@
     <MESSAGE value="ec2 changes - trailing" />
     <MESSAGE value="Major house keeping - Added comments about changes in EC2 (new way of passing subnet-id)" />
     <MESSAGE value="Updated keypair value" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated keypair value" />
+    <MESSAGE value="Resending code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resending code" />
   </component>
 </project>
