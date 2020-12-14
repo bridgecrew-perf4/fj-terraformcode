@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="89b11f95-475b-49bd-b7c2-f6cbb2108d6a" name="Default Changelist" comment="Updated keypair value">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-uat/module_ec2/ec2.tf" beforeDir="false" afterPath="$PROJECT_DIR$/my-uat/module_ec2/ec2.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,19 @@
       <recent name="C:\IdeaProjects\fj-terraformcode\my-uat" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,6 +69,7 @@
       <workItem from="1607090690411" duration="3099000" />
       <workItem from="1607095949091" duration="328000" />
       <workItem from="1607428327136" duration="8127000" />
+      <workItem from="1607952172476" duration="1147000" />
     </task>
     <task id="LOCAL-00001" summary="Sending code first time">
       <created>1607018684602</created>
@@ -184,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607700795194</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added IAM role resource">
+      <created>1607703534666</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1607703534666</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +252,7 @@
     <MESSAGE value="Changed keypair name." />
     <MESSAGE value="Changed keypair nam #2" />
     <MESSAGE value="Added IAM role parameter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added IAM role parameter" />
+    <MESSAGE value="Added IAM role resource" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added IAM role resource" />
   </component>
 </project>
