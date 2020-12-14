@@ -45,5 +45,5 @@ data "template_file" "userdata_win" {
 }
 
 data "aws_iam_role" "renaming-host" {
-    name      = "Rename-Hostname"
+    name      = "RenameHostname"
 }
